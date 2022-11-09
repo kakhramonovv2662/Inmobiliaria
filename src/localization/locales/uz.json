@@ -1,0 +1,308 @@
+{
+  "yup": {
+    "mixed": {
+      "required": "Majburiy",
+      "default": "Xato",
+      "oneOf": "${path} must be one of the following values: ${values}",
+      "notOneOf": "${path} must not be one of the following values: ${values}"
+    },
+    "string": {
+      "length": "${path} must be exactly ${length} characters",
+      "min": "${path} must be at least ${min} characters",
+      "max": "${path} must be at most ${max} characters",
+      "matches": "${path} must match the following: ${regex}",
+      "email": "${path} must be a valid email",
+      "url": "${path} must be a valid URL",
+      "trim": "${path} must be a trimmed string",
+      "lowercase": "${path} must be a lowercase string",
+      "uppercase": "${path} must be a upper case string"
+    },
+    "number": {
+      "min": "${path} must be greater than or equal to ${min}",
+      "max": "${path} must be less than or equal to ${max}",
+      "lessThan": "${path} must be less than ${less}",
+      "moreThan": "${path} must be greater than ${more}",
+      "notEqual": "${path} must be not equal to ${notEqual}",
+      "positive": "${path} must be a positive number",
+      "negative": "${path} must be a negative number",
+      "integer": "${path} must be an integer"
+    },
+    "date": {
+      "required": "Required",
+      "default": "${path} is invalid'",
+      "min": "${path} field must be later than ${min}",
+      "max": "${path} field must be at earlier than ${max}"
+    },
+    "array": {
+      "required": "${path} is required",
+      "default": "${path} is invalid'",
+      "min": "${path} field must have at least ${min} items",
+      "max": "${path} field must have less than or equal to ${max} items"
+    }
+  },
+  "menu": {
+    "dashboard": "Boshqaruv paneli",
+    "branch": "Filiallar",
+    "class": "Dars jadvali",
+    "grade": "Baho va yo'qlamalar",
+    "information": {
+      "information": "Ma'lumotlar",
+      "subject": "Fanlar",
+      "subjectType": "Fanlar Turi",
+      "topic": "Mavzular",
+      "employe": "Xodimlar",
+      "build": "Binolar",
+      "room": "Xonalar",
+      "class": "Sinflar",
+      "student": "O'quvchilar",
+      "teacher": "O'qituvchilar",
+      "subgroups": "Subguruhlar",
+      "period": "Davrlar",
+      "modulePeriod": "Oraliq davrlar",
+      "shift": "Smenalar",
+      "command": "Buyruqlar",
+      "holidays": "Bayramlar",
+      "rateType": "Baholash turlari",
+      "chat": "Chat",
+      "rate-status": "Baholash qiymaatlari",
+      "group": "Guruhlar"
+    }
+  },
+  "filterDataTable": {
+    "listOfBranches": "Filiallar ro’yxati",
+    "addBranch": "Yangi filial qo’shish",
+    "filter": "Filtr",
+    "scheduleAdjustment": "Jadvalni sozlash",
+    "listOfSubjects": "Fanlar ro’yxati",
+    "addSubject": "Fan qo'shish",
+    "editSubject": "Fanni tahrirlash",
+    "listOfBuilds": "Binolar ro’yxati",
+    "addBuild": "Bino qo'shish",
+    "listOfRooms": "Xonalar ro’yxati",
+    "addRoom": "Xona qo'shish",
+    "holidays": "Bayram kunlari",
+    "addHolidays": "Kun qo`shish",
+    "editHolidays": "O'zgartirish",
+    "role": "Rol",
+    "addRole": "Rol qo`shish",
+    "editRole": "Rolni tahrirlash",
+    "add": "Qo`shish"
+  },
+  "modal": {
+    "addBranch": "Filial qo'shish",
+    "editBranch": "Filialni tahrirlash",
+    "name": "Nomi",
+    "enterName": "Nomini kiriting...",
+    "region": "Region",
+    "enterRegion": "Regioni kiriting...",
+    "address": "Manzil",
+    "phone": "Telefon raqami",
+    "phonePlaceholder": "Telefon raqam",
+    "cancel": "Bekor qilish",
+    "save": "Saqlash",
+    "delete": "O`chirish",
+    "info": "Ushba malumotni o`chirganingizdan so`ng qayta tiklashning iloji yo`q",
+    "request": "O’chirishni istaysizmi?",
+    "country": "Mamlakat",
+    "floor": "Qavatlar soni",
+    "subjectType": "Fan turi",
+    "subjectTypeCreate": "Fan turi qo'shish",
+    "subjectTypeEdit": "Fan turini tahrirlash",
+    "date": "Kuni",
+    "enterDate": "Sanani kiriting",
+    "description": "Batafsil",
+    "rateType": "Baholash turi",
+    "from": "Boshlanish sanasini tanlang",
+    "to": "Tugatilish sanasini tanlang",
+    "date_time": "Sana",
+    "shortName": "Qisqa nomi",
+    "rate": "Baho",
+    "color": "Rang tanlash"
+  },
+  "dataTable": {
+    "action": "Harakat"
+  },
+  "site": {
+    "name": "School System"
+  },
+  "header": {
+    "notification": {
+      "message": "Habarlar",
+      "time": "{{number}} min"
+    },
+    "searchBranch": "Filial qidirish"
+  },
+  "login": {
+    "title": "Tizimga kirish",
+    "username": "Foydalanuvchi nomi",
+    "username_validation": "Fodalanuvchi nomini kiriting!",
+    "password_validation": "Parolni kiriting!",
+    "password": "Parol"
+  },
+  "room": {
+    "modal": {
+      "addTitle": "Xona qo’shish",
+      "editTitle": "Ma`lumotlarni o`zgartirish",
+      "name": "Nomi",
+      "building": "Bino",
+      "floor": "Qavat",
+      "enterName": "Nomini kiriting...",
+      "chooseBuilding": "Binoni tanlash",
+      "enterFloor": "Qavatni kiriting...",
+      "room": "Xona"
+    },
+    "message": {
+      "update": "Muvaffaqqiyatli o`zgartirildi",
+      "delete": "Muvaffaqqiyatli o`chirildi",
+      "add": "Muvaffaqqiyatli qo`shildi"
+    }
+  },
+  "branches": {
+    "deleted": "Filial o'chirildi",
+    "updated": "Filial yangilandi",
+    "created": "Filial yaratilgan"
+  },
+  "role": {
+    "deleted": "Rol o'chirildi",
+    "updated": "Rol yangilandi",
+    "created": "Rol yaratildi"
+  },
+  "subject": {
+    "create": "Yangi fan qo'shildi",
+    "update": "Fanlar bo'limi o'zgartirildi",
+    "delete": "Bitta fan o'chirildi"
+  },
+  "popover": {
+    "filter": "Filterlash",
+    "clear": "Tozalash"
+  },
+  "modulePeriod": {
+    "headerFilter": {
+      "pageTitle": "Oraliq davrlar ro’yxati",
+      "createModulePeriod": "Yangi oraliq davr qo’shish",
+      "editModulePeriod": "Oraliq davrni tahrirlash",
+      "date": "Sana",
+      "startDate": "Boshlanish sanasini tanlang",
+      "endDate": "Tugatilish sanasini tanlang"
+    },
+    "dataTable": {
+      "status": "Status",
+      "startDate": "Boshlanish sanasi",
+      "finishDate": "Tugash sanasi"
+    },
+    "crudBtns": {
+      "create": "Yangi oraliq davrlar ro’yxati qo'shildi",
+      "update": "Oraliq davrlar ro’yxati bo'limi o'zgartirildi",
+      "delete": "Bitta oraliq davrlar ro’yxati o'chirildi"
+    }
+  },
+  "students": {
+    "lastName": "Familiya",
+    "middleName": "Otasining ismi",
+    "class": "Sinfi",
+    "classBody": "sinf",
+    "listOfStudents": "O’quvchilar ro’yxati",
+    "addNewStudent": "Yangi o’quvchi qo’shish",
+    "mainInfo": "Asosiy ma'lumotlar",
+    "birthday": "Tug’ilgan kuni",
+    "middleNamePlaceholder": "Sharif",
+    "birthdayPlaceholder": "Sana",
+    "gender": "Jinsi",
+    "address": "Yashash manzili",
+    "email": "Email",
+    "avatar": "Avatar",
+    "upload": "Faylni yuklang",
+    "bio": "Biografiyasi",
+    "bioPlaceholder": "Biografiya",
+    "back": "Ortga",
+    "next": "Keyingisi",
+    "chooseClass": "Sinf tanlash",
+    "orderNum": "Buyruq nomeri",
+    "parent": "Ota-ona",
+    "users": "Foydalanuvchilar",
+    "addNew": "Yangi qo’shish",
+    "safety": "Xavfsizlik",
+    "username": "Username",
+    "password": "Parol",
+    "confirm_password": "Parolni tasdiqlash",
+    "studentAdded": "O`quvchi yaratildi",
+    "studentEdited": "O`quvchi yangilandi",
+    "studentDeleted": "O`quvchi o`chirildi"
+  },
+  "shifts": {
+    "headerFilter": {
+      "pageTitle": "Smenalar ro’yxati",
+      "pageFilterTitle": "Yangi smena qo’shish"
+    },
+    "crudBtns": {
+      "create": "Yangi Smena qo'shildi",
+      "update": "Smena bo'limi o'zgartirildi",
+      "delete": "Bitta smena o'chirildi"
+    }
+  },
+  "employees": {
+    "pageTitle": "Hodimlar ro’yxati",
+    "addEmployee": "Yangi hodim qo’shish",
+    "subjects": "Fanlar",
+    "bio": "Bio",
+    "name": "Ismi",
+    "role": "Rol",
+    "salary": "Ish haqqi",
+    "experience": "Tajriba",
+    "orderNum": "Buyruq nomer",
+    "requirements": "Ish shartlari",
+    "deleted": "Hodim o'chirildi",
+    "created": "Hodim yaratilgan",
+    "updated": "Hodim yangilandi"
+  },
+  "profile": {
+    "newUpload": "Yangi yuklash"
+  },
+  "dashboard": {
+    "progressStatus": "O’zlashtirish statistikasi",
+    "check-in": "Davomat",
+    "student": "O`quvchi",
+    "lateness": "Kechga qolishlar"
+  },
+  "buildings": {
+    "delete": "Bino o'chirildi",
+    "update": "Bino yangilandi",
+    "create": "Bino yaratilgan"
+  },
+  "classes": {
+    "addClass": "Sinf qo'shish",
+    "editClass": "Sinf tahrirlash",
+    "listOfClasses": "Sinflar ro'yxati",
+    "edited": "Sinf tahrirlandi",
+    "created": "Sinf qo'shildi",
+    "deleted": "Sinf o'chirildi"
+  },
+  "holidays": {
+    "holidayDeleted": "Bayram oʻchirildi",
+    "holidayUpdated": "Bayram yangilandi",
+    "holidayAdded": "Bayram qo'shildi"
+  },
+  "groups": {
+    "addNewGroup": "Yangi guruh qo'shish",
+    "groupName": "Guruh nomi",
+    "enterGroupName": "Guruh nomini kiriting",
+    "acceptanceNum": "Qabul soni",
+    "mainGroup": "Asosiy guruh",
+    "teacher": "Sinf rahbari",
+    "name": "Ism",
+    "lessonPeriod": "Dars davri",
+    "groupCollection": "Guruh to'plami",
+    "date": "Sana",
+    "enterStartDate": "Boshlanish sanasini tanlang",
+    "enterFinishDate": "Tugatilish sanasini tanlang",
+    "editGroup": "Guruhni tahrirlash",
+    "addGroup": "Guruh qo'shish",
+    "listOfGroups": "Guruhlar ro'yxati",
+    "deleted": "Guruh o'chirildi",
+    "edited": "Guruh tahrirlandi",
+    "created": "Guruh yaratildi",
+    "parentGroup": "Ota guruh",
+    "startDate": "Boshlang'ich sana",
+    "endDate": "Tugatish sanasi"
+  }
+}

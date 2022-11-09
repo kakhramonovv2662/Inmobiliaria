@@ -1,0 +1,304 @@
+{
+  "yup": {
+    "mixed": {
+      "required": "Обязательно",
+      "default": "Невалидный'",
+      "oneOf": "${path} must be one of the following values: ${values}",
+      "notOneOf": "${path} must not be one of the following values: ${values}"
+    },
+    "string": {
+      "length": "${path} must be exactly ${length} characters",
+      "min": "${path} must be at least ${min} characters",
+      "max": "${path} must be at most ${max} characters",
+      "matches": "${path} must match the following: ${regex}",
+      "email": "${path} must be a valid email",
+      "url": "${path} must be a valid URL",
+      "trim": "${path} must be a trimmed string",
+      "lowercase": "${path} must be a lowercase string",
+      "uppercase": "${path} must be a upper case string"
+    },
+    "number": {
+      "min": "${path} must be greater than or equal to ${min}",
+      "max": "${path} must be less than or equal to ${max}",
+      "lessThan": "${path} must be less than ${less}",
+      "moreThan": "${path} must be greater than ${more}",
+      "notEqual": "${path} must be not equal to ${notEqual}",
+      "positive": "${path} must be a positive number",
+      "negative": "${path} must be a negative number",
+      "integer": "${path} must be an integer"
+    },
+    "date": {
+      "required": "Required",
+      "default": "${path} is invalid'",
+      "min": "${path} field must be later than ${min}",
+      "max": "${path} field must be at earlier than ${max}"
+    },
+    "array": {
+      "required": "${path} is required",
+      "default": "${path} is invalid'",
+      "min": "${path} field must have at least ${min} items",
+      "max": "${path} field must have less than or equal to ${max} items"
+    }
+  },
+  "menu": {
+    "dashboard": "Приборная доска",
+    "branch": "Branches",
+    "class": "Ветви",
+    "grade": "Оценить и проверить",
+    "information": {
+      "information": "Информация",
+      "subject": "Предметы",
+      "subjectType": "Предмет Тип",
+      "topic": "Темы",
+      "employe": "Работает",
+      "build": "Строительство",
+      "room": "Номера",
+      "class": "Классы",
+      "student": "Ученики",
+      "teacher": "Учителя",
+      "subgroups": "Подгруппы",
+      "period": "Периоды",
+      "modulePeriod": "Модульные периоды",
+      "shift": "Смены",
+      "command": "Команды",
+      "holidays": "Каникулы",
+      "rateType": "Виды оценки",
+      "chat": "Чат",
+      "rate-status": "Оценочные значения",
+      "group": "Группы"
+    }
+  },
+  "filterDataTable": {
+    "listOfBranches": "Список филиалов",
+    "addBranch": "Добавить новую филиал",
+    "filter": "Фильтр",
+    "scheduleAdjustment": "Корректировка расписания",
+    "listOfSubjects": "Список науки",
+    "addSubject": "Добавить новую наук",
+    "editSubject": "Изменить наук",
+    "listOfBuilds": "Список странит",
+    "addBuild": "Добавить новую странит",
+    "listOfRooms": "Список номеров",
+    "addRoom": "Добавить комнату",
+    "holidays": "Каникулы",
+    "addHolidays": "Добавить день",
+    "editHolidays": "Изменять",
+    "role": "Роль",
+    "addRole": "Добавить роль",
+    "editRole": "Изменить роль",
+    "add": "Добавлять"
+  },
+  "modal": {
+    "addBranch": "Добавить филиал",
+    "editBranch": "Изменить филиал",
+    "name": "Имя",
+    "enterName": "Введите имя...",
+    "region": "Область, край",
+    "enterRegion": "Введите регион...",
+    "address": "Адрес",
+    "phone": "Номер телефона",
+    "phonePlaceholder": "Номер телефона",
+    "cancel": "Отмена",
+    "save": "Сохранять",
+    "delete": "Удалить",
+    "info": "После того, как вы удалите эту информацию, ее нельзя будет восстановить.",
+    "request": "Вы хотите удалить?",
+    "country": "Страна",
+    "floor": "Количество этажей",
+    "subjectType": "Тип наук",
+    "subjectTypeCreate": "Изменить Тип наук",
+    "date": "День",
+    "enterDate": "Введите дату",
+    "description": "Описание",
+    "rateType": "Способ оценки",
+    "from": "От",
+    "to": "До",
+    "date_time": "Дата",
+    "shortName": "Короткое имя",
+    "rate": "Оценка",
+    "color": "Выбор цвета"
+  },
+  "dataTable": {
+    "action": "Движение"
+  },
+  "site": {
+    "name": "School System"
+  },
+  "header": {
+    "notification": {
+      "message": "Новости",
+      "time": "{{number}} мин"
+    },
+    "searchBranch": "Поиск отделения"
+  },
+  "login": {
+    "title": "Войти в систему",
+    "username": "Имя пользователя",
+    "username_validation": "Введите имя пользователя!",
+    "password_validation": "Введите парол!",
+    "password": "Парол"
+  },
+  "room": {
+    "modal": {
+      "addTitle": "Добавить комнату",
+      "editTitle": "Изменить данные",
+      "name": "Имя",
+      "building": "Здание",
+      "floor": "Этаж",
+      "enterName": "Введите имя...",
+      "chooseBuilding": "Выберите здание",
+      "enterFloor": "Войдите на этаж...",
+      "room": "Номера"
+    },
+    "message": {
+      "update": "Изменено успешно",
+      "delete": "Удалить",
+      "add": "Добавлено успешно"
+    }
+  },
+  "branches": {
+    "deleted": "Филиал удалена",
+    "updated": "Филиал обновлена",
+    "created": "Филиал создан"
+  },
+  "role": {
+    "deleted": "Роль удалена",
+    "updated": "Роль обновлена",
+    "created": "Роль создана"
+  },
+  "subject": {
+    "create": "Добавлена ​​новая наука",
+    "update": "Одна наука изменена",
+    "delete": "Одна наука удалена"
+  },
+  "popover": {
+    "filter": "Фильтрация",
+    "clear": "Чисто"
+  },
+  "modulePeriod": {
+    "headerFilter": {
+      "pageTitle": "Список промежуточных периодов",
+      "createModulePeriod": "Добавить новый промежуточных периодов",
+      "editModulePeriod": "Изменить промежуточных периодов",
+      "date": "Дата",
+      "startDate": "Выберите дату начала",
+      "endDate": "Выберите дату окончания"
+    },
+    "dataTable": {
+      "status": "Статус",
+      "startDate": "Дата начала",
+      "finishDate": "Дата окончания"
+    },
+    "crudBtns": {
+      "create": "Добавлена ​​новая Период модуля",
+      "update": "Одна Период модуля изменена",
+      "delete": "Одна Период модуля удалена"
+    }
+  },
+  "students": {
+    "lastName": "Фамилия",
+    "middleName": "Имя его отца",
+    "class": "Учебный класс",
+    "classBody": "учебный класс",
+    "listOfStudents": "Список студентов",
+    "addNewStudent": "Добавить нового ученика",
+    "mainInfo": "Основная информация",
+    "birthday": "Дата рождения",
+    "middleNamePlaceholder": "Шариф",
+    "birthdayPlaceholder": "Дата",
+    "gender": "Пол",
+    "address": "Адрес проживания",
+    "email": "Эл. адрес",
+    "avatar": "Аватар",
+    "upload": "Загрузить файл",
+    "bio": "Биография",
+    "bioPlaceholder": "Биография",
+    "back": "Назад",
+    "next": "Следующий",
+    "chooseClass": "Выберите класс",
+    "orderNum": "Порядковый номер",
+    "parent": "Родители",
+    "users": "Пользователи",
+    "addNew": "Добавить новое",
+    "safety": "Безопасность",
+    "username": "Имя пользователя",
+    "password": "Пароль",
+    "confirm_password": "Подтвердить Пароль",
+    "studentAdded": "Студент был создан",
+    "studentEdited": "Учащийся обновлен",
+    "studentDeleted": "Студент удален"
+  },
+  "shifts": {
+    "headerFilter": {
+      "pageTitle": "Список промежуточных Сменa",
+      "pageFilterTitle": "Добавить новый Сменa"
+    },
+    "crudBtns": {
+      "create": "Добавлена ​​новая Сменa",
+      "update": "Одна Сменa изменена",
+      "delete": "Одна Смены удалена"
+    }
+  },
+  "profile": {
+    "newUpload": "Новая загрузка"
+  },
+  "employees": {
+    "pageTitle": "Список сотрудников",
+    "addEmployee": "Добавить нового сотрудника",
+    "subjects": "Наук",
+    "bio": "Био",
+    "name": "Имя",
+    "role": "Роль",
+    "requirements": "Условия труда",
+    "deleted": "Сотрудник удален",
+    "created": "Сотрудник создан",
+    "updated": "Сотрудник был обновлен"
+  },
+  "dashboard": {
+    "progressStatus": "Статистика приобретения",
+    "check-in": "Посещаемость",
+    "student": "Ученик",
+    "lateness": "Позднее пребывание"
+  },
+  "buildings": {
+    "delete": "Здание удалено",
+    "update": "Здание обновлено",
+    "create": "Здание создано"
+  },
+  "classes": {
+    "addClass": "Добавить курс",
+    "editClass": "Редактирование класса",
+    "listOfClasses": "Список классов",
+    "edited": "Класс был отредактирован",
+    "created": "Класс добавлен",
+    "deleted": "Класс был удален"
+  },
+  "holidays": {
+    "holidayDeleted": "Праздник удален",
+    "holidayUpdated": "Праздник обновлен",
+    "holidayAdded": "Праздник добавлен"
+  },
+  "groups": {
+    "addNewGroup": "Добавить новую группу",
+    "groupName": "Название группы",
+    "enterGroupName": "Введите название группы",
+    "acceptanceNum": "Приемочный номер",
+    "mainGroup": "Основная группа",
+    "teacher": "Лидер класса",
+    "name": "Имя",
+    "lessonPeriod": "Период занятий",
+    "groupCollection": "Групповой набор",
+    "date": "Дата",
+    "enterStartDate": "Выберите дату начала",
+    "enterFinishDate": "Выберите дату окончания",
+    "editGroup": "Редактировать группу",
+    "addGroup": "Добавить группу",
+    "listOfGroups": "Список групп",
+    "deleted": "Группа была удалена",
+    "edited": "Группа была отредактирована",
+    "created": "Группа создана",
+    "parentGroup": "Родительская группа",
+    "startDate": "Дата начала",
+    "endDate": "Дата завершения"
+  }
+}

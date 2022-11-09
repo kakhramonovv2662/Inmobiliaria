@@ -1,0 +1,305 @@
+{
+  "yup": {
+    "mixed": {
+      "required": "Required",
+      "default": "Invalid'",
+      "oneOf": "${path} must be one of the following values: ${values}",
+      "notOneOf": "${path} must not be one of the following values: ${values}"
+    },
+    "string": {
+      "length": "${path} must be exactly ${length} characters",
+      "min": "${path} must be at least ${min} characters",
+      "max": "${path} must be at most ${max} characters",
+      "matches": "${path} must match the following: ${regex}",
+      "email": "${path} must be a valid email",
+      "url": "${path} must be a valid URL",
+      "trim": "${path} must be a trimmed string",
+      "lowercase": "${path} must be a lowercase string",
+      "uppercase": "${path} must be a upper case string"
+    },
+    "number": {
+      "min": "${path} must be greater than or equal to ${min}",
+      "max": "${path} must be less than or equal to ${max}",
+      "lessThan": "${path} must be less than ${less}",
+      "moreThan": "${path} must be greater than ${more}",
+      "notEqual": "${path} must be not equal to ${notEqual}",
+      "positive": "${path} must be a positive number",
+      "negative": "${path} must be a negative number",
+      "integer": "${path} must be an integer"
+    },
+    "date": {
+      "required": "Required",
+      "default": "${path} is invalid'",
+      "min": "${path} field must be later than ${min}",
+      "max": "${path} field must be at earlier than ${max}"
+    },
+    "array": {
+      "required": "${path} is required",
+      "default": "${path} is invalid'",
+      "min": "${path} field must have at least ${min} items",
+      "max": "${path} field must have less than or equal to ${max} items"
+    }
+  },
+  "menu": {
+    "dashboard": "Dashboard",
+    "branch": "Branches",
+    "class": "Class schedule",
+    "grade": "Grade and Check in",
+    "information": {
+      "information": "Information",
+      "subject": "Subjects",
+      "subjectType": "Subject Type",
+      "topic": "Topics",
+      "employe": "Employees",
+      "build": "Builds",
+      "room": "Rooms",
+      "class": "Classes",
+      "student": "Students",
+      "teacher": "Teachers",
+      "subgroups": "Subgroups",
+      "period": "Periods",
+      "modulePeriod": "Module Periods",
+      "shift": "Shifts",
+      "command": "Commands",
+      "holidays": "Holidays",
+      "rateType": "Types of assessment",
+      "chat": "Chat",
+      "rate-status": "Evaluation values",
+      "group": "Groups"
+    }
+  },
+  "filterDataTable": {
+    "listOfBranches": "List of branches",
+    "addBranch": "Add a new branch",
+    "filter": "Filter",
+    "scheduleAdjustment": "Schedule adjustment",
+    "listOfSubjects": "List of subjects",
+    "addSubject": "Add a new subject",
+    "editSubject": "Edit the subject",
+    "listOfBuilds": "List of builds",
+    "addBuild": "Add a new build",
+    "listOfRooms": "List of rooms",
+    "addRoom": "Add a room",
+    "holidays": "Holidays",
+    "addHolidays": "Add a day",
+    "editHolidays": "Change",
+    "role": "Role",
+    "addRole": "Add a role",
+    "editRole": "Edit the role",
+    "add": "Add"
+  },
+  "modal": {
+    "addBranch": "Add a branch",
+    "editBranch": "Edit the branch",
+    "name": "Name",
+    "enterName": "Enter a name...",
+    "region": "Region",
+    "enterRegion": "Enter a region...",
+    "address": "Address",
+    "phone": "Phone number",
+    "phonePlaceholder": "Phone number",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "info": "Once you delete this information, it cannot be restored",
+    "request": "Do you want to delete?",
+    "country": "Country",
+    "floor": "Number of floors",
+    "subjectType": "Subject Type",
+    "subjectTypeCreate": "Create Subject Type",
+    "subjectTypeEdit": "Edit the Subject Type",
+    "date": "Day",
+    "enterDate": "Enter the date",
+    "description": "Description",
+    "rateType": "Rate type",
+    "from": "From",
+    "to": "To",
+    "date_time": "Date",
+    "shortName": "Short name",
+    "rate": "Rate",
+    "color": "Color selection"
+  },
+  "dataTable": {
+    "action": "Action"
+  },
+  "site": {
+    "name": "School System"
+  },
+  "header": {
+    "notification": {
+      "message": "News",
+      "time": "{{number}} min"
+    },
+    "searchBranch": "Branch search"
+  },
+  "login": {
+    "title": "Sign in",
+    "username": "Username",
+    "username_validation": "Enter username!",
+    "password_validation": "Enter password!",
+    "password": "Password"
+  },
+  "room": {
+    "modal": {
+      "addTitle": "Add a room",
+      "editTitle": "Change data",
+      "name": "Name",
+      "building": "Building",
+      "floor": "Floor",
+      "enterName": "Enter name...",
+      "chooseBuilding": "Choose a building",
+      "enterFloor": "Enter the floor...",
+      "room": "Room"
+    },
+    "message": {
+      "update": "Changed successfully",
+      "delete": "Delete",
+      "add": "Added successfully"
+    }
+  },
+  "branches": {
+    "deleted": "Branch deleted",
+    "updated": "Branch updated",
+    "created": "Branch created"
+  },
+  "role": {
+    "deleted": "The role has been deleted",
+    "updated": "Role updated",
+    "created": "Role created"
+  },
+  "subject": {
+    "create": "Added new science",
+    "update": "Changed the science section",
+    "delete": "One subject deleted"
+  },
+  "popover": {
+    "filter": "Filtration",
+    "clear": "Clear"
+  },
+  "modulePeriod": {
+    "headerFilter": {
+      "pageTitle": "List of periods",
+      "createModulePeriod": "Add new Module Period",
+      "editModulePeriod": "Edit the Module Period",
+      "date": "Date",
+      "startDate": "Select a start date",
+      "endDate": "Select an end date"
+    },
+    "dataTable": {
+      "status": "Status",
+      "startDate": "Start date",
+      "finishDate": "End date"
+    },
+    "crudBtns": {
+      "create": "Added Module Period science",
+      "update": "Changed the Module Period section",
+      "delete": "One Module Period deleted"
+    }
+  },
+  "students": {
+    "lastName": "Surname",
+    "middleName": "Middle name",
+    "class": "Class",
+    "classBody": "class",
+    "listOfStudents": "List of students",
+    "addNewStudent": "Add a new student",
+    "mainInfo": "Basic information",
+    "birthday": "Date of birth",
+    "middleNamePlaceholder": "Middle name",
+    "birthdayPlaceholder": "Date",
+    "gender": "Gender",
+    "address": "Residential address",
+    "email": "Email",
+    "avatar": "Avatar",
+    "upload": "Upload the file",
+    "bio": "Biography",
+    "bioPlaceholder": "Biography",
+    "back": "Back",
+    "next": "The next one",
+    "chooseClass": "Choose a class",
+    "orderNum": "Order number",
+    "parent": "Parents",
+    "users": "Users",
+    "addNew": "Add new",
+    "safety": "Safety",
+    "username": "Username",
+    "password": "Password",
+    "confirm_password": "Confirm password",
+    "studentAdded": "Student has been created",
+    "studentEdited": "Student updated",
+    "studentDeleted": "Student deleted"
+  },
+  "shifts": {
+    "headerFilter": {
+      "pageTitle": "List of shifts",
+      "pageFilterTitle": "Add new shift"
+    },
+    "crudBtns": {
+      "create": "Added Shift science",
+      "update": "Changed the shift section",
+      "delete": "One shift deleted"
+    }
+  },
+  "profile": {
+    "newUpload": "New download"
+  },
+  "employees": {
+    "pageTitle": "List of employees",
+    "addEmployee": "Add a new employee",
+    "subjects": "Subjects",
+    "bio": "Bio",
+    "name": "Name",
+    "role": "Role",
+    "requirements": "Working conditions",
+    "deleted": "The employee has been deleted",
+    "created": "Employee is created",
+    "updated": "The employee has been updated"
+  },
+  "dashboard": {
+    "progressStatus": "Acquisition statistics",
+    "check-in": "Attendance",
+    "student": "Student",
+    "lateness": "Late arrivals"
+  },
+  "buildings": {
+    "delete": "Building's been deleted",
+    "update": "Building's been updated",
+    "create": "Building's been created"
+  },
+  "classes": {
+    "addClass": "Add a class",
+    "editClass": "Class editing",
+    "listOfClasses": "List of classes",
+    "edited": "The class has been edited",
+    "created": "Class added",
+    "deleted": "The class has been deleted"
+  },
+  "holidays": {
+    "holidayDeleted": "Holiday deleted",
+    "holidayUpdated": "Holiday updated",
+    "holidayAdded": "Holiday added"
+  },
+  "groups": {
+    "addNewGroup": "Add a new group",
+    "groupName": "Group name",
+    "enterGroupName": "Enter a group name",
+    "acceptanceNum": "Acceptance number",
+    "mainGroup": "Main group",
+    "teacher": "Class leader",
+    "name": "Name",
+    "lessonPeriod": "Class period",
+    "groupCollection": "Group set",
+    "date": "The date",
+    "enterStartDate": "Select a start date",
+    "enterFinishDate": "Select an end date",
+    "editGroup": "Edit the group",
+    "addGroup": "Add a group",
+    "listOfGroups": "List of groups",
+    "deleted": "The group has been deleted",
+    "edited": "The group has been edited",
+    "created": "Group created",
+    "parentGroup": "Parent group",
+    "startDate": "Start date",
+    "endDate": "End date"
+  }
+}
